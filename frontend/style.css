@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.back{
+    width: 20%;
+    height: 100%;
+    background-color: #ea4c3c;
+}
+.container {
+    width: 80%;
+    height: 85%;
+    background-color: #f1f1fb;
+    border-radius: 1rem;
+    justify-content: center;
+    margin:50px auto;
+}
+ .sidebar{
+    width: 20%;
+    height: 520px;
+    background: #f0f0fa;
+    padding: 30px 0;
+    border-radius: 10px 0 0 10px;
+}
+
+h4{
+    padding: 16px;
+    margin: 20px 0;
+}
+
+.sidebar ul li{
+    padding: 5px 15px;
+    border-bottom: 1px;
+    font-size: 14px;
+    display: block;
+    color: black;
+}
+
+.sidebar ul li a .fas{
+    width: 25px;
+}
+
+.sidebar ul li:hover{
+    background: #ea4c3c;
+    padding: 2px;
+    border-radius: 4px;
+}
+.sidebar .logout{
+    padding: 15px;
+    position: absolute;
+    bottom: 18%;
+}
+
+.sidebar .logout:hover{
+    background: #ea4c3c;
+    
+    border-radius: 2px;
+}
+
+.card{
+    padding: 10px ;
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    background: #ea4c3c;
+    position: absolute;
+    bottom: 55%;
+    right: 12%;
+    border-radius: 10px;
+    color: white;
+}
+
+.card p{
+    padding: 10px 14px;
+    font-size: 12px;
+}
+
+.card h3{
+    padding: 0 10px;
+    font-weight:bold;
+
+}
+
+.card .btn{
+    width: 160px;
+    justify-self: center;
+    margin: 0 16px;
+    background-color: #ea4c3c;
+    border-radius: 4px;
+    color: white;
+    border: 0.1px solid azure;
+    margin-top: 10px;
+    padding: 4px;
+
+}
+
+.card .btn a{
+    color: white;
+}
+.main{
+    width: 40%;
+    height: 70%;
+    background: #f1f1fb;
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    
+}
+
+  h3{
+   font-weight: bolder;
+   padding: 2rem;
+}
+.main h5,
+p{
+    padding: 0 32px;
+    
+
+}
+
+.main p{
+    font-size: 10px;
+}
